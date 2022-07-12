@@ -26,6 +26,7 @@
 #table{
     width: 310px;
     height: 310px;
+    background-color: rgb(172, 222, 222);
 }
 #block{
     display: flex;
@@ -47,8 +48,6 @@
     border: 1px solid rgb(120, 154, 181);
 }
 
-#cell1,
-#cell2,
-#cell3{
-    background-color: pink;
+body{
+    background-color: rgb(214, 243, 243);
 }
