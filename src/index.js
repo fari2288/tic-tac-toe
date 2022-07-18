@@ -42,11 +42,12 @@ if (this.innerHTML=='o'){
     document.querySelector('#cross').style.backgroundColor='yellow';
     document.querySelector('#circle').style.backgroundColor='white';
 }
+showResult()
 }
 
 
-const result=document.querySelector('#result');
-result.addEventListener('click', showResult)
+// const result=document.querySelector('#result');
+// result.addEventListener('click', showResult)
 function showResult(){
     
 const array=[
@@ -61,9 +62,11 @@ const array=[
 ]
     for (let i=0;i<array.length;i++){
     if (cell[array[i][0]].innerHTML=='x' && cell[array[i][1]].innerHTML=='x' && cell[array[i][2]].innerHTML=='x'){
-        alert('крестики победили')
+        alert('крестики победили');
+        refreshPage()
     } else if(cell[array[i][0]].innerHTML=='o' && cell[array[i][1]].innerHTML=='o' && cell[array[i][2]].innerHTML=='o'){
-        alert('нолики победили')
+        alert('нолики победили');
+        refreshPage()
     }
     
     
