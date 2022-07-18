@@ -42,7 +42,7 @@ if (this.innerHTML=='o'){
     document.querySelector('#cross').style.backgroundColor='yellow';
     document.querySelector('#circle').style.backgroundColor='white';
 }
-let array=[];
+
 
 
 }
