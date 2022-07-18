@@ -43,3 +43,25 @@ if (this.innerHTML=='o'){
     document.querySelector('#circle').style.backgroundColor='white';
 }
 }
+
+
+const result=document.querySelector('#result');
+result.addEventListener('click', showResult)
+function showResult(){
+    
+const array=[
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+    [0, 3, 6],
+    [1, 4, 7],
+    [2, 5, 8],
+    [0, 4, 8],
+    [2, 4, 6]
+]
+    for (let i=0;i<array.length;i++){
+    if (cell[array[i][0]].innerHTML=='x' && cell[array[i][1]].innerHTML=='x' && cell[array[i][2]].innerHTML=='x'){
+        alert('крестики победили')
+    }
+}
+}
