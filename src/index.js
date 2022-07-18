@@ -62,6 +62,10 @@ const array=[
     for (let i=0;i<array.length;i++){
     if (cell[array[i][0]].innerHTML=='x' && cell[array[i][1]].innerHTML=='x' && cell[array[i][2]].innerHTML=='x'){
         alert('крестики победили')
+    } else if(cell[array[i][0]].innerHTML=='o' && cell[array[i][1]].innerHTML=='o' && cell[array[i][2]].innerHTML=='o'){
+        alert('нолики победили')
     }
+    
+    
 }
 }
