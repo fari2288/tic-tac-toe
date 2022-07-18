@@ -51,3 +51,11 @@
 body{
     background-color: rgb(214, 243, 243);
 }
+
+.cell{
+    width: 101px;
+    height: 101px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
