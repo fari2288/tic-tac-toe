@@ -68,6 +68,10 @@ const array=[
         alert('нолики победили');
         refreshPage()
     }
+    else if
+        (cell[array[i][0]].innerHTML=='o' && cell[array[i][1]].innerHTML=='x' && cell[array[i][2]].innerHTML=='o')
+    
+    {alert('ничья')}
     
     
 }
