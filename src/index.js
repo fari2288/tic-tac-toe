@@ -61,127 +61,127 @@ function cellClick(){
         alert('ячейка занята')
     }
     
-if (cell1.innerHTML=='x'){
+if (cell1.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell10.innerHTML='o';
 }
-if (cell2.innerHTML=='x'){
+if (cell2.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell9.innerHTML='o';
 }
-if (cell3.innerHTML=='x'){
+if (cell3.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell15.innerHTML='o';
 }
-if (cell4.innerHTML=='x'){
+if (cell4.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell6.innerHTML='o';
 }
-if (cell5.innerHTML=='x'){
+if (cell5.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell22.innerHTML='o';
 }
-if (cell6.innerHTML=='x'){
+if (cell6.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell2.innerHTML='o';
 }
-if (cell7.innerHTML=='x'){
+if (cell7.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell21.innerHTML='o';
 }
-if (cell8.innerHTML=='x'){
+if (cell8.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell18.innerHTML='o';
 }
-if (cell9.innerHTML=='x'){
+if (cell9.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell12.innerHTML='o';
 }
-if (cell10.innerHTML=='x'){
+if (cell10.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell13.innerHTML='o';
 }
-if (cell11.innerHTML=='x'){
+if (cell11.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell8.innerHTML='o';
 }
-if (cell12.innerHTML=='x'){
+if (cell12.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell6.innerHTML='o';
 }
-if (cell13.innerHTML=='x'){
+if (cell13.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell7.innerHTML='o';
 }
-if (cell14.innerHTML=='x'){
+if (cell14.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell1.innerHTML='o';
 }
-if (cell15.innerHTML=='x'){
+if (cell15.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell14.innerHTML='o';
 }
-if (cell16.innerHTML=='x'){
+if (cell16.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell4.innerHTML='o';
 }
-if (cell17.innerHTML=='x'){
+if (cell17.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell11.innerHTML='o';
 }
-if (cell18.innerHTML=='x'){
+if (cell18.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell3.innerHTML='o';
 }
-if (cell19.innerHTML=='x'){
+if (cell19.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell5.innerHTML='o';
 }
-if (cell20.innerHTML=='x'){
+if (cell20.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell9.innerHTML='o';
 }
-if (cell21.innerHTML=='x'){
+if (cell21.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell17.innerHTML='o';
 }
-if (cell22.innerHTML=='x'){
+if (cell22.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell25.innerHTML='o';
 }
-if (cell23.innerHTML=='x'){
+if (cell23.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell24.innerHTML='o';
 }
-if (cell24.innerHTML=='x'){
+if (cell24.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell23.innerHTML='o';
 }
-if (cell25.innerHTML=='x'){
+if (cell25.innerHTML==player){
     document.querySelector('#circle').style.backgroundColor='pink';
     document.querySelector('#cross').style.backgroundColor='white';
     cell20.innerHTML='o';
