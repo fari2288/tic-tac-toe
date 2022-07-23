@@ -35,6 +35,10 @@
     height: 100px;
     border: 1px solid black;
     box-sizing: border-box;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
