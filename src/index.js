@@ -23,8 +23,7 @@ let cell22 = document.querySelector('#cell22');
 let cell23 = document.querySelector('#cell23');
 let cell24 = document.querySelector('#cell24');
 let cell25 = document.querySelector('#cell25');
-const pink=document.querySelector('#circle').style.backgroundColor='pink';
-const yellow=document.querySelector('#cross').style.backgroundColor='yellow';
+
 
 
 const reset = document.querySelector('#reset');
