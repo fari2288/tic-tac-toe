@@ -24,6 +24,7 @@ let cell23 = document.querySelector('#cell23');
 let cell24 = document.querySelector('#cell24');
 let cell25 = document.querySelector('#cell25');
 const div=document.querySelector('#message');
+const message=document.createElement('div');
 
 
 const reset = document.querySelector('#reset');
@@ -93,7 +94,7 @@ for (let i=0;i<field.length;i++){
             document.querySelector('#cell3').style.color='red';
             document.querySelector('#cell4').style.color='red';
             document.querySelector('#cell5').style.color='red';
-            let message=document.createElement('div');
+            
             div.appendChild(message);
 message.innerHTML=`${current} победили`;
 document.querySelector('#message').style.zIndex="1";
@@ -106,6 +107,10 @@ document.querySelector('#message').style.zIndex="1";
             document.querySelector('#cell8').style.color='red';
             document.querySelector('#cell9').style.color='red';
             document.querySelector('#cell10').style.color='red';
+            
+            div.appendChild(message);
+message.innerHTML=`${current1} победили`;
+document.querySelector('#message').style.zIndex="1";
         }
         const current2=field[i+2][j].innerHTML;
         if (current2!=='' && current2===field[i+2][j+1].innerHTML && current2 === field[i+2][j+2].innerHTML &&current2===field[i+2][j+3].innerHTML && current2 === field[i+2][j+4].innerHTML){
@@ -115,6 +120,10 @@ document.querySelector('#message').style.zIndex="1";
             document.querySelector('#cell13').style.color='red';
             document.querySelector('#cell14').style.color='red';
             document.querySelector('#cell15').style.color='red';
+            
+            div.appendChild(message);
+message.innerHTML=`${current2} победили`;
+document.querySelector('#message').style.zIndex="1";
         }
         const current3=field[i+3][j].innerHTML;
         if (current3!=='' && current3===field[i+3][j+1].innerHTML && current3 === field[i+3][j+2].innerHTML && current3===field[i+3][j+3].innerHTML && current3 === field[i+3][j+4].innerHTML){
@@ -124,6 +133,10 @@ document.querySelector('#message').style.zIndex="1";
             document.querySelector('#cell18').style.color='red';
             document.querySelector('#cell19').style.color='red';
             document.querySelector('#cell20').style.color='red';
+            
+            div.appendChild(message);
+message.innerHTML=`${current3} победили`;
+document.querySelector('#message').style.zIndex="1";
         }
         const current4=field[i+4][j].innerHTML;
         if (current4!=='' && current4===field[i+4][j+1].innerHTML && current4 === field[i+4][j+2].innerHTML &&current4===field[i+4][j+3].innerHTML && current4 === field[i+4][j+4].innerHTML){
@@ -133,6 +146,10 @@ document.querySelector('#message').style.zIndex="1";
             document.querySelector('#cell23').style.color='red';
             document.querySelector('#cell24').style.color='red';
             document.querySelector('#cell25').style.color='red';
+            
+            div.appendChild(message);
+message.innerHTML=`${current4} победили`;
+document.querySelector('#message').style.zIndex="1";
         }
         const current5=field[i][j].innerHTML;
         if (current5!=='' && current5===field[i+1][j].innerHTML && current5 === field[i+2][j].innerHTML && current5===field[i+3][j].innerHTML && current5 === field[i+4][j].innerHTML){
@@ -143,6 +160,10 @@ document.querySelector('#message').style.zIndex="1";
             document.querySelector('#cell6').style.color='red';
             document.querySelector('#cell21').style.color='red';
             
+            div.appendChild(message);
+message.innerHTML=`${current5} победили`;
+document.querySelector('#message').style.zIndex="1";
+            
         }
         const current6=field[i][j+1].innerHTML;
         if (current6!=='' && current6===field[i+1][j+2].innerHTML && current6 === field[i+2][j+2].innerHTML &&current6===field[i+3][j+2].innerHTML && current6 === field[i+4][j+2].innerHTML){
@@ -152,6 +173,10 @@ document.querySelector('#message').style.zIndex="1";
             document.querySelector('#cell12').style.color='red';
             document.querySelector('#cell17').style.color='red';
             document.querySelector('#cell22').style.color='red';
+            
+            div.appendChild(message);
+message.innerHTML=`${current6} победили`;
+document.querySelector('#message').style.zIndex="1";
         }
         const current7=field[i][j+2].innerHTML;
         if (current7!=='' && current7===field[i+1][j+2].innerHTML && current7 === field[i+2][j+2].innerHTML && current7===field[i+3][j+2].innerHTML && current7 === field[i+4][j+2].innerHTML){
@@ -161,6 +186,10 @@ document.querySelector('#message').style.zIndex="1";
             document.querySelector('#cell13').style.color='red';
             document.querySelector('#cell18').style.color='red';
             document.querySelector('#cell23').style.color='red';
+            
+            div.appendChild(message);
+message.innerHTML=`${current7} победили`;
+document.querySelector('#message').style.zIndex="1";
         }
         const current8=field[i][j+3].innerHTML;
         if (current8!=='' && current8===field[i+1][j+3].innerHTML && current8 === field[i+2][j+3].innerHTML &&current8===field[i+3][j+3].innerHTML && current8 === field[i+4][j+3].innerHTML){
@@ -170,6 +199,10 @@ document.querySelector('#message').style.zIndex="1";
             document.querySelector('#cell14').style.color='red';
             document.querySelector('#cell19').style.color='red';
             document.querySelector('#cell24').style.color='red';
+            
+            div.appendChild(message);
+message.innerHTML=`${current8} победили`;
+document.querySelector('#message').style.zIndex="1";
         }
         const current9=field[i][j+4].innerHTML;
         if (current9!=='' && current9===field[i+1][j+4].innerHTML && current9 === field[i+2][j+4].innerHTML && current9===field[i+3][j+4].innerHTML && current9 === field[i+4][j+4].innerHTML){
@@ -179,6 +212,10 @@ document.querySelector('#message').style.zIndex="1";
             document.querySelector('#cell15').style.color='red';
             document.querySelector('#cell20').style.color='red';
             document.querySelector('#cell25').style.color='red';
+            
+            div.appendChild(message);
+message.innerHTML=`${current9} победили`;
+document.querySelector('#message').style.zIndex="1";
         }
         const current10=field[i][j].innerHTML;
         if (current10!=='' && current10===field[i+1][j+1].innerHTML && current10===field[i+2][j+2].innerHTML && current10 === field[i+3][j+3].innerHTML && current10===field[i+4][j+4].innerHTML){
@@ -188,6 +225,11 @@ document.querySelector('#message').style.zIndex="1";
             document.querySelector('#cell13').style.color='red';
             document.querySelector('#cell19').style.color='red';
             document.querySelector('#cell25').style.color='red';
+            
+            div.appendChild(message);
+message.innerHTML=`${current10} победили`;
+document.querySelector('#message').style.zIndex="1";
+            
         }
         const current11=field[i][j+4].innerHTML;
         if (current11!=='' && current11===field[i+1][j+3].innerHTML && current11===field[i+2][j+2].innerHTML && current11 === field[i+3][j+1].innerHTML && current11===field[i+4][j].innerHTML){
@@ -197,6 +239,11 @@ document.querySelector('#message').style.zIndex="1";
             document.querySelector('#cell13').style.color='red';
             document.querySelector('#cell17').style.color='red';
             document.querySelector('#cell21').style.color='red';
+            
+            div.appendChild(message);
+message.innerHTML=`${current11} победили`;
+document.querySelector('#message').style.zIndex="1";
+            
         }
     }
 }
