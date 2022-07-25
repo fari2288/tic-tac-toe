@@ -2,6 +2,8 @@ $grey: #7B7B7B;
 $table_background: rgb(172, 222, 222);
 $body_background: rgb(214, 243, 243);
 $win_background: rgb(174, 196, 237);
+$message_background: rgb(219, 226, 233);
+
 .wrapper{
     display: flex;
     justify-content: center;
@@ -24,8 +26,15 @@ $win_background: rgb(174, 196, 237);
     z-index: -1;
     width: 200px;
     height: 200px;
-    border: 1px solid red;
-    background-color: aliceblue;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $message_background;
+}
+#div{
+    display: flex;
+    justify-content: center;
 }
 #inputs{
     display: flex;

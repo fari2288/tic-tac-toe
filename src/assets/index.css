@@ -22,8 +22,16 @@
   z-index: -1;
   width: 200px;
   height: 200px;
-  border: 1px solid red;
-  background-color: aliceblue;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(219, 226, 233);
+}
+
+#div {
+  display: flex;
+  justify-content: center;
 }
 
 #inputs {
