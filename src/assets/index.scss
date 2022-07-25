@@ -25,14 +25,13 @@ $message_background: rgb(219, 226, 233);
     position: absolute;
     z-index: -1;
     width: 200px;
-    height: 100px;
+    height: 200px;
     border: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: wheat;
-    opacity: 0.5;
-    color: black;
+    background-color: rgb(233, 211, 172, 0.5);
+    
 }
 #div{
     display: flex;
