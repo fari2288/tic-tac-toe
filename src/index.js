@@ -87,51 +87,112 @@ for (let i=0;i<field.length;i++){
     for (let j=0; j<field.length;j++){
         const current=field[i][j].innerHTML;
         if (current!=='' && current===field[i][j+1].innerHTML && current === field[i][j+2].innerHTML && current===field[i][j+3].innerHTML && current === field[i][j+4].innerHTML){
-            alert(`${current} победили`)
+            alert(`${current} победили`);
+            document.querySelector('#cell1').style.color='red';
+            document.querySelector('#cell2').style.color='red';
+            document.querySelector('#cell3').style.color='red';
+            document.querySelector('#cell4').style.color='red';
+            document.querySelector('#cell5').style.color='red';
         }
         const current1=field[i+1][j].innerHTML;
         if (current1!=='' && current1===field[i+1][j+1].innerHTML && current1 === field[i+1][j+2].innerHTML && current1===field[i+1][j+3].innerHTML && current1 === field[i+1][j+4].innerHTML){
-            alert(`${current1} победили`)
+            alert(`${current1} победили`);
+            document.querySelector('#cell6').style.color='red';
+            document.querySelector('#cell7').style.color='red';
+            document.querySelector('#cell8').style.color='red';
+            document.querySelector('#cell9').style.color='red';
+            document.querySelector('#cell10').style.color='red';
         }
         const current2=field[i+2][j].innerHTML;
         if (current2!=='' && current2===field[i+2][j+1].innerHTML && current2 === field[i+2][j+2].innerHTML &&current2===field[i+2][j+3].innerHTML && current2 === field[i+2][j+4].innerHTML){
-            alert(`${current2} победили`)
+            alert(`${current2} победили`);
+            document.querySelector('#cell11').style.color='red';
+            document.querySelector('#cell12').style.color='red';
+            document.querySelector('#cell13').style.color='red';
+            document.querySelector('#cell14').style.color='red';
+            document.querySelector('#cell15').style.color='red';
         }
         const current3=field[i+3][j].innerHTML;
         if (current3!=='' && current3===field[i+3][j+1].innerHTML && current3 === field[i+3][j+2].innerHTML && current3===field[i+3][j+3].innerHTML && current3 === field[i+3][j+4].innerHTML){
-        alert(`${current3} победили`)
+        alert(`${current3} победили`);
+        document.querySelector('#cell16').style.color='red';
+            document.querySelector('#cell17').style.color='red';
+            document.querySelector('#cell18').style.color='red';
+            document.querySelector('#cell19').style.color='red';
+            document.querySelector('#cell20').style.color='red';
         }
         const current4=field[i+4][j].innerHTML;
         if (current4!=='' && current4===field[i+4][j+1].innerHTML && current4 === field[i+4][j+2].innerHTML &&current4===field[i+4][j+3].innerHTML && current4 === field[i+4][j+4].innerHTML){
-            alert(`${current4} победили`)
+            alert(`${current4} победили`);
+            document.querySelector('#cell21').style.color='red';
+            document.querySelector('#cell22').style.color='red';
+            document.querySelector('#cell23').style.color='red';
+            document.querySelector('#cell24').style.color='red';
+            document.querySelector('#cell25').style.color='red';
         }
         const current5=field[i][j].innerHTML;
         if (current5!=='' && current5===field[i+1][j].innerHTML && current5 === field[i+2][j].innerHTML && current5===field[i+3][j].innerHTML && current5 === field[i+4][j].innerHTML){
-            alert(`${current5} победили`)
+            alert(`${current5} победили`);
+            document.querySelector('#cell1').style.color='red';
+            document.querySelector('#cell6').style.color='red';
+            document.querySelector('#cell11').style.color='red';
+            document.querySelector('#cell6').style.color='red';
+            document.querySelector('#cell21').style.color='red';
+            
         }
         const current6=field[i][j+1].innerHTML;
         if (current6!=='' && current6===field[i+1][j+2].innerHTML && current6 === field[i+2][j+2].innerHTML &&current6===field[i+3][j+2].innerHTML && current6 === field[i+4][j+2].innerHTML){
-            alert(`${current6} победили`)
+            alert(`${current6} победили`);
+            document.querySelector('#cell2').style.color='red';
+            document.querySelector('#cell7').style.color='red';
+            document.querySelector('#cell12').style.color='red';
+            document.querySelector('#cell17').style.color='red';
+            document.querySelector('#cell22').style.color='red';
         }
         const current7=field[i][j+2].innerHTML;
         if (current7!=='' && current7===field[i+1][j+2].innerHTML && current7 === field[i+2][j+2].innerHTML && current7===field[i+3][j+2].innerHTML && current7 === field[i+4][j+2].innerHTML){
-            alert(`${current7} победили`)
+            alert(`${current7} победили`);
+            document.querySelector('#cell3').style.color='red';
+            document.querySelector('#cell8').style.color='red';
+            document.querySelector('#cell13').style.color='red';
+            document.querySelector('#cell18').style.color='red';
+            document.querySelector('#cell23').style.color='red';
         }
         const current8=field[i][j+3].innerHTML;
         if (current8!=='' && current8===field[i+1][j+3].innerHTML && current8 === field[i+2][j+3].innerHTML &&current8===field[i+3][j+3].innerHTML && current8 === field[i+4][j+3].innerHTML){
-            alert(`${current8} победили`)
+            alert(`${current8} победили`);
+            document.querySelector('#cell4').style.color='red';
+            document.querySelector('#cell9').style.color='red';
+            document.querySelector('#cell14').style.color='red';
+            document.querySelector('#cell19').style.color='red';
+            document.querySelector('#cell24').style.color='red';
         }
         const current9=field[i][j+4].innerHTML;
         if (current9!=='' && current9===field[i+1][j+4].innerHTML && current9 === field[i+2][j+4].innerHTML && current9===field[i+3][j+4].innerHTML && current9 === field[i+4][j+4].innerHTML){
-            alert(`${current9} победили`)
+            alert(`${current9} победили`);
+            document.querySelector('#cell5').style.color='red';
+            document.querySelector('#cell10').style.color='red';
+            document.querySelector('#cell15').style.color='red';
+            document.querySelector('#cell20').style.color='red';
+            document.querySelector('#cell25').style.color='red';
         }
         const current10=field[i][j].innerHTML;
         if (current10!=='' && current10===field[i+1][j+1].innerHTML && current10===field[i+2][j+2].innerHTML && current10 === field[i+3][j+3].innerHTML && current10===field[i+4][j+4].innerHTML){
-            alert(`${current10} победили`)
+            alert(`${current10} победили`);
+            document.querySelector('#cell1').style.color='red';
+            document.querySelector('#cell7').style.color='red';
+            document.querySelector('#cell13').style.color='red';
+            document.querySelector('#cell19').style.color='red';
+            document.querySelector('#cell25').style.color='red';
         }
         const current11=field[i][j+4].innerHTML;
         if (current11!=='' && current11===field[i+1][j+3].innerHTML && current11===field[i+2][j+2].innerHTML && current11 === field[i+3][j+1].innerHTML && current11===field[i+4][j].innerHTML){
-            alert(`${current11} победили`)
+            alert(`${current11} победили`);
+            document.querySelector('#cell5').style.color='red';
+            document.querySelector('#cell9').style.color='red';
+            document.querySelector('#cell13').style.color='red';
+            document.querySelector('#cell17').style.color='red';
+            document.querySelector('#cell21').style.color='red';
         }
     }
 }
