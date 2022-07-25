@@ -23,7 +23,7 @@ let cell22 = document.querySelector('#cell22');
 let cell23 = document.querySelector('#cell23');
 let cell24 = document.querySelector('#cell24');
 let cell25 = document.querySelector('#cell25');
-
+const div=document.querySelector('#message');
 
 
 const reset = document.querySelector('#reset');
@@ -93,6 +93,10 @@ for (let i=0;i<field.length;i++){
             document.querySelector('#cell3').style.color='red';
             document.querySelector('#cell4').style.color='red';
             document.querySelector('#cell5').style.color='red';
+            let message=document.createElement('div');
+            div.appendChild(message);
+message.innerHTML=`${current} победили`;
+document.querySelector('#message').style.zIndex="1";
         }
         const current1=field[i+1][j].innerHTML;
         if (current1!=='' && current1===field[i+1][j+1].innerHTML && current1 === field[i+1][j+2].innerHTML && current1===field[i+1][j+3].innerHTML && current1 === field[i+1][j+4].innerHTML){
