@@ -5,16 +5,16 @@
   align-items: center;
 }
 
+.x,
+.o {
+  cursor: pointer;
+  width: 45px;
+}
+
 .fa-xmark,
 .fa-o {
-  position: relative;
   font-size: 1.3em;
-  z-index: 1;
-  left: -30px;
-  top: 1px;
   color: #7B7B7B;
-  cursor: pointer;
-  width: 0;
 }
 
 #message {
@@ -34,11 +34,6 @@
   justify-content: center;
 }
 
-#inputs {
-  display: flex;
-  padding-bottom: 50px;
-}
-
 #title {
   text-align: center;
 }
@@ -54,12 +49,16 @@
 .cell {
   width: 100px;
   height: 100px;
-  border: 1px solid black;
+  border: 1px solid rgb(159, 160, 163);
   box-sizing: border-box;
   font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cell:hover {
+  background-color: rgb(138, 203, 201);
 }
 
 body {
