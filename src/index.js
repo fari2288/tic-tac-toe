@@ -1,4 +1,3 @@
-
 const message = document.querySelector('#message');
 const div = document.createElement('div');
 
